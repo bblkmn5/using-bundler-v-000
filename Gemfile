@@ -6,8 +6,9 @@ gem "hashie"
 
 gem "octokit", "~> 2.0"
 
+gem "pry", :group => "development"
 group :development do
-  gem "pry" => "development"
+  gem "pry"
 end
 
 group :test do
